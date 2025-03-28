@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Affiliate Marketing Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-semibold text-blue-600">AffiliatePro</a>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#products" class="text-gray-700 hover:text-blue-600 transition duration-300">Products</a></li>
+                    <li><a href="#reviews" class="text-gray-700 hover:text-blue-600 transition duration-300">Reviews</a></li>
+                    <li><a href="#about" class="text-gray-700 hover:text-blue-600 transition duration-300">About Us</a></li>
+                    <li><a href="#contact" class="text-gray-700 hover:text-blue-600 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-700 hover:text-blue-600 focus:outline-none focus:shadow-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+                </button>
+                <div id="mobile-menu" class="hidden absolute top-16 right-0 bg-white shadow-lg rounded-md py-2 px-4 space-y-2">
+                    <a href="#products" class="block text-gray-700 hover:text-blue-600 transition duration-300">Products</a>
+                    <a href="#reviews" class="block text-gray-700 hover:text-blue-600 transition duration-300">Reviews</a>
+                    <a href="#about" class="block text-gray-700 hover:text-blue-600 transition duration-300">About Us</a>
+                    <a href="#contact" class="block text-gray-700 hover:text-blue-600 transition duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-br from-blue-100 to-purple-100 py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Discover the Best Products</h1>
+            <p class="text-lg text-gray-600 mb-8">Curated selections for your needs.</p>
+            <a href="#products" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full transition duration-300">Explore Products</a>
+        </div>
+    </section>
+
+    <section id="products" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">Featured Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="blogs/images/iQOOZ9s5G.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">iQOO Z9s 5G – Best Budget 5G Phone?</h3>
+                        <p class="text-gray-600 mb-4">A fast 5G phone with a 120Hz display and 50MP camera under ₹20K! Is it worth it? Find out now!
+</p>
+                        <a href="blogs/iQOOZ9s5G.html" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://placehold.co/400x300/EEE/31343C" alt="Product 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Product 2</h3>
+                        <p class="text-gray-600 mb-4">Description of Product 2.  Another excellent product.</p>
+                        <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg">
+                    <img src="https://placehold.co/400x300/EEE/31343C" alt="Product 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Product 3</h3>
+                        <p class="text-gray-600 mb-4">Description of Product 3.  Check this one out!</p>
+                        <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="bg-blue-50 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">Customer Reviews</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-700 mb-4">"Great products and excellent service.  I highly recommend them!"</p>
+                    <p class="text-gray-600 font-semibold">- John Smith</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-700 mb-4">"I'm very happy with my purchase.  The quality is outstanding."</p>
+                    <p class="text-gray-600 font-semibold">- Jane Doe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">About Us</h2>
+            <div class="text-gray-700 text-lg">
+                <p class="mb-4">Welcome to AffiliatePro, your trusted source for high-quality product recommendations. We are dedicated to providing you with the best selections to meet your needs.</p>
+                <p>Our team carefully curates each product, ensuring that you receive valuable and reliable information.  We strive for excellence in everything we do.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    <section id="contact" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">Contact Us</h2>
+            <div class="bg-white rounded-lg shadow-md p-8 max-w-md mx-auto">
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                        <textarea id="message" name="message" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32 resize-y"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full transition duration-300 focus:outline-none focus:shadow-outline">Send Message</button>
+                </form>
+            </div>
+        </div>
+        -->
+    </section>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto px-4 text-center text-gray-300">
+            <p>&copy; 2024 AffiliatePro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
